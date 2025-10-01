@@ -36,6 +36,41 @@ document.addEventListener('DOMContentLoaded', function() {
             issuer: 'FreeCodeCamp',
             year: '2025',
             url:'https://www.freecodecamp.org/certification/fcc078d8d10-1143-4d67-896f-f07d4533a556/responsive-web-design'
+        },
+        {
+            img: 'sql basic.jpg',
+            title: 'SQL Basic',
+            issuer: 'HakerRank',
+            year: '2025',
+            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_sql-database-hackerrank-activity-7371574252183101440-bVsd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
+        },
+        {
+            img: 'sql intermediate.jpg',
+            title: 'SQL Intermediate',
+            issuer: 'HakerRank',
+            year: '2025',
+            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_sql-certification-learning-activity-7372113014910566400-M0l5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
+        },
+        {
+            img: 'sql advanced.jpg',
+            title: 'SQL Advanced',
+            issuer: 'HakerRank',
+            year: '2025',
+            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_sql-certification-learning-activity-7372113014910566400-M0l5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
+        },
+        {
+            img: 'AWS Academy Graduate - Generation AI Foundations.png',
+            title: 'AWS Academy Graduate - Generation AI Foundations',
+            issuer: 'AWS Academy',
+            year: '2025',
+            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-cloudcomputing-serverless-activity-7357641823911075840-6rLR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
+        },
+        {
+            img: 'AWS Cloud Quest Cloud Practitioner.jpg',
+            title: 'AWS Cloud Quest: Cloud Practitioner',
+            issuer: 'AWS Training and Certification',
+            year: '2025',
+            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-cloudquest-cloudpractitioner-activity-7376821747083493376-inXq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
         }
     ];
 
