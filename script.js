@@ -100,17 +100,29 @@ document.addEventListener('DOMContentLoaded', function() {
     const projectCards = document.querySelectorAll('.project-card');
     projectCards.forEach((card, index) => {
         // Add click functionality to the second project (Serverless Web Application)
-        if (index === 1) { // Second project (0-indexed)
+        if (index === 2) { // Second project (0-indexed)
             card.style.cursor = 'pointer';
             card.addEventListener('click', () => {
                 window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_webdevelopment-aws-firstwebsite-activity-7360184714210545664-q3jd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE', '_blank');
             });
         }
         // Add click functionality to the third project (Cloud-Powered Tic Tac Toe Game)
-        if (index === 2) { // Third project (0-indexed)
+        if (index === 3) { // Third project (0-indexed)
             card.style.cursor = 'pointer';
             card.addEventListener('click', () => {
                 window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-serverless-lambda-activity-7370988955728609281-mH87?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE', '_blank');
+            });
+        }
+        if (index === 4) { // Fourth project (0-indexed)
+            card.style.cursor = 'pointer';
+            card.addEventListener('click', () => {
+                window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-cloudcomputing-ecommerce-activity-7373370538183847936-Zgll?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfsf_kB-ZcNEcyZskGVENZZ8AdQVJ66ZxA', '_blank');
+            });
+        }
+        if (index === 5) { // Fifth project (0-indexed)
+            card.style.cursor = 'pointer';
+            card.addEventListener('click', () => {
+                window.open('https://www.linkedin.com/posts/mohammed-arshad-i-84901b352_aws-bedrock-ai-ugcPost-7379379177927593984-nVmM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfsf_kB-ZcNEcyZskGVENZZ8AdQVJ66ZxA', '_blank');
             });
         }
     });
