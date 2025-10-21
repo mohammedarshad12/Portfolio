@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             img: 'AWS Certified Cloud Practitioner certificate_page-0001.jpg',
-            title: 'AWS Certified Cloud Practioner',
+            title: 'AWS Certified Cloud Practitioner',
             issuer: 'AWS',
             year: '2025',
             url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-generativeai-cloudcomputing-activity-7374477362006183936-zYVS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
@@ -106,16 +106,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add click functionality to project cards
     const projectCards = document.querySelectorAll('.project-card');
     projectCards.forEach((card, index) => {
-        
-        
-        if (index === 1) { // Second project (Serverless Web Application)
+        // Add click functionality to the second project (Serverless Web Application)
+        if (index === 1) { // Second project (0-indexed)
             card.style.cursor = 'pointer';
             card.addEventListener('click', () => {
                 window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-serverless-python-activity-7363006422348914688-Rxa4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE', '_blank');
             });
         }
         // Add click functionality to the third project (Cloud-Powered Tic Tac Toe Game)
-        if (index === 2) { // Third project (0-indexed)
+        if (index === 3) { // Third project (0-indexed)
             card.style.cursor = 'pointer';
             card.addEventListener('click', () => {
                 window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-serverless-lambda-activity-7370988955728609281-mH87?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE', '_blank');
@@ -130,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (index === 4) { // Fifth project (AI Chat Bot)
             card.style.cursor = 'pointer';
             card.addEventListener('click', () => {
-                window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-cloudcomputing-serverless-activity-7380129526976221184-ZD9T?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE', '_blank');
+                window.open('https://www.linkedin.com/posts/mohammed-arshad-i-84901b352_aws-bedrock-ai-ugcPost-7379379177927593984-nVmM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFfsf_kB-ZcNEcyZskGVENZZ8AdQVJ66ZxA', '_blank');
             });
         }
     });
@@ -580,13 +579,8 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         });
     }
-});
-
-// Add some interactive hover effects
-
-document.addEventListener('DOMContentLoaded', function() {
+    // Add some interactive hover effects
     // Project card hover effect
-    const projectCards = document.querySelectorAll('.project-card');
     projectCards.forEach(card => {
         card.addEventListener('mouseenter', function() {
             this.style.transform = 'translateY(-10px) scale(1.02)';
@@ -596,43 +590,43 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-// Add dark mode CSS and skill tooltip CSS
-const style = document.createElement('style');
-style.textContent = `
-    body.dark-mode {
-        background: #222 !important;
-        color: #eee !important;
-    }
-    body.dark-mode header,
-    body.dark-mode .container,
-    body.dark-mode .certificate-card,
-    body.dark-mode .project-card {
-        background: #2c2c2c !important;
-        color: #eee !important;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-    }
-    body.dark-mode .section-title {
-        color: #eee !important;
-    }
-    body.dark-mode .skill-item {
-        background: #058e8f !important;
-        color: #fff !important;
-    }
-    .skill-tooltip {
-        position: absolute;
-        background: #058e8f;
-        color: #fff;
-        padding: 6px 14px;
-        border-radius: 8px;
-        font-size: 0.95rem;
-        box-shadow: 0 2px 8px rgba(8,142,143,0.15);
-        pointer-events: none;
-        z-index: 4000;
-        white-space: nowrap;
-        transition: opacity 0.2s;
-    }
-`;
-document.head.appendChild(style);
+    // Add dark mode CSS and skill tooltip CSS
+    const style = document.createElement('style');
+    style.textContent = `
+        body.dark-mode {
+            background: #222 !important;
+            color: #eee !important;
+        }
+        body.dark-mode header,
+        body.dark-mode .container,
+        body.dark-mode .certificate-card,
+        body.dark-mode .project-card {
+            background: #2c2c2c !important;
+            color: #eee !important;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+        }
+        body.dark-mode .section-title {
+            color: #eee !important;
+        }
+        body.dark-mode .skill-item {
+            background: #058e8f !important;
+            color: #fff !important;
+        }
+        .skill-tooltip {
+            position: absolute;
+            background: #058e8f;
+            color: #fff;
+            padding: 6px 14px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            box-shadow: 0 2px 8px rgba(8,142,143,0.15);
+            pointer-events: none;
+            z-index: 4000;
+            white-space: nowrap;
+            transition: opacity 0.2s;
+        }
+    `;
+    document.head.appendChild(style);
 
     // Button ripple effect
     const buttons = document.querySelectorAll('.btn, .btn-small');
@@ -674,5 +668,5 @@ document.head.appendChild(style);
             }
         }
     `;
-    document.head.appendChild(style);
+    document.head.appendChild(rippleStyle);
 });
