@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'AWS Cloud Practitioner Essential',
             issuer: 'Amazon Web Services',
             year: '2025',
-            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-cloudcomputing-serverless-activity-7357641823911075840-6rLR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
+            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-cloudcomputing-awscloud-activity-7355235914354208768-Y0M3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
         },
         {
             img: 'OOPs.png',
@@ -56,14 +56,14 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'SQL Advanced',
             issuer: 'HakerRank',
             year: '2025',
-            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_sql-certification-learning-activity-7372113014910566400-M0l5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
+            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_sql-hackerrank-certification-activity-7373031664828080129-03A0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
         },
         {
             img: 'AWS Academy Graduate - Generation AI Foundations.png',
             title: 'AWS Academy Graduate - Generation AI Foundations',
             issuer: 'AWS Academy',
             year: '2025',
-            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-cloudcomputing-serverless-activity-7357641823911075840-6rLR?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
+            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-generativeai-cloudcomputing-activity-7374477362006183936-zYVS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
         },
         {
             img: 'AWS Cloud Quest Cloud Practitioner.jpg',
@@ -71,6 +71,13 @@ document.addEventListener('DOMContentLoaded', function() {
             issuer: 'AWS Training and Certification',
             year: '2025',
             url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-cloudquest-cloudpractitioner-activity-7376821747083493376-inXq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
+        },
+        {
+            img: 'AWS Certified Cloud Practitioner certificate_page-0001.jpg',
+            title: 'AWS Certified Cloud Practioner',
+            issuer: 'AWS',
+            year: '2025',
+            url:'https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-generativeai-cloudcomputing-activity-7374477362006183936-zYVS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE'
         }
     ];
 
@@ -99,11 +106,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add click functionality to project cards
     const projectCards = document.querySelectorAll('.project-card');
     projectCards.forEach((card, index) => {
-        // Add click functionality to the second project (Serverless Web Application)
-        if (index === 1) { // Second project (0-indexed)
+        
+        
+        if (index === 1) { // Second project (Serverless Web Application)
             card.style.cursor = 'pointer';
             card.addEventListener('click', () => {
-                window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_webdevelopment-aws-firstwebsite-activity-7360184714210545664-q3jd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE', '_blank');
+                window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-serverless-python-activity-7363006422348914688-Rxa4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE', '_blank');
             });
         }
         // Add click functionality to the third project (Cloud-Powered Tic Tac Toe Game)
@@ -111,6 +119,18 @@ document.addEventListener('DOMContentLoaded', function() {
             card.style.cursor = 'pointer';
             card.addEventListener('click', () => {
                 window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-serverless-lambda-activity-7370988955728609281-mH87?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE', '_blank');
+            });
+        }
+        if (index === 3) { // Fourth project (0-indexed)
+            card.style.cursor = 'pointer';
+            card.addEventListener('click', () => {
+                window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-cloudcomputing-ecommerce-activity-7373370538183847936-Zgll?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE', '_blank');
+            });
+        }
+        if (index === 4) { // Fifth project (AI Chat Bot)
+            card.style.cursor = 'pointer';
+            card.addEventListener('click', () => {
+                window.open('https://www.linkedin.com/posts/mohammed-arshad-2051182a4_aws-cloudcomputing-serverless-activity-7380129526976221184-ZD9T?utm_source=share&utm_medium=member_desktop&rcm=ACoAAElYFCUBrtfqbMRBRvGUdIyXprDqYrnBcXE', '_blank');
             });
         }
     });
